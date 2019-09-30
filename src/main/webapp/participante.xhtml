@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core">
+ 
+<h:head>
+<!-- <h:outputScript name="js/testejs001.js"/> -->
+ <script src="#{facesContext.externalContext.requestContextPath}/js/testejs001.js" type="text/javascript"/>
+</h:head>
+ 
+<h:body>
+    <h2>JSF - Desenvolvimento Aberto - Managed Beans -</h2>
+    <h3>
+        <h:outputText id="lnome" value="Validação - Cadastros:" />
+    </h3>
+    <h:form>
+        <h:panelGrid columns="3" cellpadding="2px">
+            <h:outputText id="lnome" value="Nome:" />
+            <h:inputText id="tnome" value="#{Participante.nome}" size="30"
+                required="true" label="Nome" onmouseover="meuMouseOver()"
+                onmouseout="meuMouseOut()" />
+            <h:message for="tnome" style="color:red" />
+ 
+            <h:outputText id="lsobrenome" value="Sobrenome:" />
+            <h:inputText id="tsobrenome" value="#{Participante.sobrenome}"
+                size="40" required="true" label="Sobrenome" />
+            <h:message for="tsobrenome" style="color:red" />
+ 
+            <h:outputText id="lcargo" value="Cargo" />
+            <h:inputText id="tcargo" value="#{Participante.cargo}" size="25"
+                required="true" label="Cargo" />
+            <h:message for="tcargo" style="color:red" />
+ 
+            <h:outputText id="lsalario" value="Salário" />
+            <h:inputText id="tsalario" value="#{Participante.salario}"
+                required="true" label="Salário"
+                requiredMessage="teste"
+                validatorMessage="teste1">
+ 
+                <f:validateDoubleRange minimum="788.00" maximum="9999.99" />
+            </h:inputText>
+ 
+            <h:message for="tsalario" style="color:red" />
+ 
+        </h:panelGrid>
+        <br />
+        <h:commandButton id="botao" action="#{Participante.Acao}"
+            value="Enviar Dados" />
+ 
+        <div id="meulog"></div>
+    </h:form>
+</h:body>
+</html>

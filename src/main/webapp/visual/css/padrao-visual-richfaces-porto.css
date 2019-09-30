@@ -1,0 +1,601 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+	font-family: 'ColaborateLightRegular';
+	src: url('../fonte/colablig-webfont.eot');
+	src: url('../fonte/colablig-webfont.eot?#iefix')
+		format('embedded-opentype'), url('../fonte/colablig-webfont.woff')
+		format('woff'), url('../fonte/colablig-webfont.ttf')
+		format('truetype'),
+		url('../fonte/colablig-webfont.svg#ColaborateLightRegular')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ColaborateRegular';
+	src: url('../fonte/colabreg-webfont.eot');
+	src: url('../fonte/colabreg-webfont.eot?#iefix')
+		format('embedded-opentype'), url('../fonte/colabreg-webfont.woff')
+		format('woff'), url('../fonte/colabreg-webfont.ttf')
+		format('truetype'),
+		url('../fonte/colabreg-webfont.svg#ColaborateRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ColaborateMediumRegular';
+	src: url('../fonte/colabmed-webfont.eot');
+	src: url('../fonte/colabmed-webfont.eot?#iefix')
+		format('embedded-opentype'), url('../fonte/colabmed-webfont.woff')
+		format('woff'), url('../fonte/colabmed-webfont.ttf')
+		format('truetype'),
+		url('../fonte/colabmed-webfont.svg#ColaborateBoldRegular')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ColaborateRegularBold';
+	src: url('../fonte/colabbol-webfont.eot');
+	src: url('../fonte/colabbol-webfont.eot?#iefix')
+		format('embedded-opentype'), url('../fonte/colabbol-webfont.woff')
+		format('woff'), url('../fonte/colabbol-webfont.ttf')
+		format('truetype'),
+		url('../fonte/colabbol-webfont.svg#ColaborateBoldRegular')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.pv-texto-upper {
+	text-transform: uppercase
+}
+
+.col {
+	text-align: left !important;
+}
+
+#mask-percent,#mask-valor,#mask {
+	background-color: rgb(255, 255, 255) !important;
+	text-align: right !important;
+}
+
+#centralizada {
+	border: 1px solid rgb(233, 233, 233);
+	border-radius: 20px 20px 20px 20px;
+	top: 20px;
+	padding: 1%;
+	margin: 1% 1% 1% 10%;
+	width: 80%;
+}
+
+#centralizada_interna_1 {
+	border: 1px solid rgb(233, 233, 233);
+	border-radius: 20px 20px 20px 20px;
+	width: 95%;
+	margin: 0 0 0 1.5%;
+	padding: 10px;
+}
+
+#fieldsetResult {
+	border: 1px solid rgb(233, 233, 233);
+	border-radius: 5px;
+	width: 97%;
+	padding: 5px 13px;
+}
+
+#fieldsetResult legend {
+	color: rgb(0, 138, 190) !important;
+	margin-left: 10px;
+	font-weight: bold !important;
+}
+
+#centralizada_interna_1 {
+	border: 1px solid rgb(233, 233, 233);
+	border-radius: 20px 20px 20px 20px;
+	width: 95%;
+	margin: 0 0 0 1.5%;
+	padding: 10px;
+}
+
+/*Estilos richfaces sobrescritos para contemplar o padrão visual Porto Seguro*/
+.rich-mpnl-content {
+	border-style: none;
+	border-width: 0px;
+	padding: 0px;
+}
+
+.rich-mpnl-body {
+	padding: 0px;
+}
+
+#centralizada {
+	border: 1px solid rgb(233, 233, 233);
+	border-radius: 20px 20px 20px 20px;
+	top: 20px;
+	padding: 1%;
+	margin: 1% 1% 1% 10%;
+	width: 80%;
+}
+
+#centralizada h3 {
+	margin: -1% 0px -5px 0%;
+}
+
+.padrao-visual table.modal-erro tr {
+	background: #FFFFFF !important;
+}
+
+.padrao-visual table.modal-erro tr td {
+	text-align: left !important;
+}
+
+.padrao-visual table tbody tr td label.lancamentos {
+	color: red !important;
+}
+
+.padrao-visual table tbody tr td span.lancamentos {
+	color: red !important;
+}
+
+.padrao-visual .pv-linha-formulario label.desempenho {
+	color: red !important;
+}
+
+.padrao-visual table tbody tr td label.destaque {
+	font-weight: bold !important;
+}
+
+.padrao-visual table tbody tr td span.destaque {
+	font-weight: bold !important;
+}
+
+.rich-mpnl-header-cell {
+	color: #FFF !important;
+	font-weight: normal !important;
+	border-right: solid 1px #fcfcfc !important;
+	border-bottom: solid 1px #fcfcfc !important;
+	background: #095474 !important;
+	padding: 10px 5px !important;
+}
+
+.rich-mpnl-header {
+	background-color: inherit;
+	border-color: inherit;
+	background-image: none;
+}
+
+.rich-mpnl-header {
+	padding: 0px;
+	border-width: 0px;
+	border-style: none;
+	background-position: center;
+	background-repeat: repeat-x;
+	color: white;
+}
+
+table tr.linha-impar {
+	background: #FFFFFF !important;
+}  /* elementos pares */
+table tr.linha-par {
+	background: #E5E5E5 !important;
+}  /* elementos impares */
+.padrao-visual table tr th div span {
+	color: #FFF !important;
+}
+
+.padrao-visual table.label-linha tbody tr td label {
+	display: inline !important;
+	margin: 0 0 4px 0 !important;
+	font-weight: normal !important;
+	font-family: ColaborateMediumRegular, Trebuchet MS !important;
+	color: #00314b !important;
+	font-size: 14px;
+}
+
+.padrao-visual table.label-linha tbody tr td {
+	text-align: left !important;
+	font-weight: normal !important;
+	border-right: solid 1px #fcfcfc !important;
+	border-bottom: solid 1px #fcfcfc !important;
+	padding: 0px !important;
+}
+
+.padrao-visual table.label-linha tbody tr {
+	background: #FFFFFF !important;
+	font-size: 14px;
+	padding: 0 !important;
+}
+
+;
+.padrao-visual table.label-linha tbody tr td input[type=radio] {
+	font-weight: normal !important;
+	vertical-align: bottom;
+}
+
+.padrao-visual table.label-line tbody tr td label {
+	display: inline !important;
+	margin: 0 0 4px 0 !important;
+	font-weight: normal !important;
+	font-family: ColaborateLightRegular, Trebuchet MS !important;
+	color: #00314b !important;
+	font-size: 14px;
+	vertical-align: bottom;
+}
+
+.padrao-visual table.label-line tbody tr td {
+	text-align: left !important;
+	font-weight: normal !important;
+	border-right: solid 1px #fcfcfc !important;
+	border-bottom: solid 1px #fcfcfc !important;
+}
+
+.padrao-visual table.label-line tbody tr {
+	background: #FFFFFF !important;
+	font-size: 14px;
+	padding: 0 !important;
+}
+
+.padrao-visual table.label-line tbody tr td input[type=radio] {
+	font-weight: normal !important;
+	vertical-align: bottom;
+	border-top-style: none !important;
+	border-right-style: none !important;
+	border-down-style: none !important;
+	border-left-style: none !important;
+}
+
+.padrao-visual input[type=radio] {
+	border-top-style: none !important;
+	border-right-style: none !important;
+	border-bottom-style: none !important;
+	border-left-style: none !important;
+}
+
+.padrao-visual input.margem-topo{
+	margin-top: 18px;	
+}
+
+.padrao-visual table input,.padrao-visual table textarea {
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+
+hr {
+	border: 1px solid #cce5ed;
+}
+
+table th.col-premio-medio {
+	width: 150px;
+}
+
+.padrao-visual table td.alinhada-esquerda {
+	text-align:left !important; font-weight: normal;
+}
+
+.padrao-visual table tbody tr td div.alinhada-esquerda {
+	text-align:left !important; font-weight: normal;
+}
+
+.padrao-visual fieldset {
+	border: 1px solid rgb(233, 233, 233);
+	border-radius: 20px 20px 20px 20px;
+	width: 95%;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.passo-a-passo {
+	background-color: rgb(255, 250, 205);
+	border: 1px solid rgb(233, 233, 233);
+	border-radius: 20px 20px 20px 20px;
+	width: 50%;
+	padding: 5px;
+	margin: 10px 10px 10px 0px;
+	font-weight: bold;
+}
+
+.rich-table-cell {
+	font-size: 14px;
+}
+
+.padrao-visual table tr td.rich-datascr-act {
+	background-color: #095474 !important;
+	color: #00aeef !important;
+	text-align: center !important;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px !important;
+	border-top-width: 0px !important;
+	border-right: solid 1px !important;
+	border-bottom-width: 0px !important;
+	border-left-width: 0px !important;
+	border-top-style: none !important;
+	width: 25px;
+	text-align: center;
+	padding: 2px 0px !important;
+}
+
+.padrao-visual table tr td.rich-datascr-inact {
+	background-color: #095474 !important;
+	color: #00aeef !important;
+	text-align: center !important;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px !important;
+	border-top-width: 0px !important;
+	border-right: solid 1px !important;
+	border-bottom-width: 0px !important;
+	border-left-width: 0px !important;
+	border-top-style: none !important;
+	width: 25px;
+	cursor: pointer;
+	text-align: center;
+	padding: 2px 0px !important;
+}
+
+.padrao-visual table tr td.rich-datascr-button,.padrao-visual table tr td.rich-datascr-ctrls-separator
+	{
+	color: #FFFFFF !important;
+	text-align: center !important;
+	font-weight: bold !important;
+	background-color: #095474;
+	border-color: #095474;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px !important;
+	border-top-width: 0px !important;
+	border-right-width: 0px !important;
+	border-bottom-width: 0px !important;
+	border-left: solid 2px #095474 !important;
+	border-top-style: none !important;
+	padding: 2px 0px !important;
+	background-image: url('../img/pg_volta.png');
+	background-repeat: no-repeat;
+	background-position: 2px -1px;
+	padding-bottom: 3px !important;
+}
+
+.padrao-visual table tbody tr td.coluna_rodape {
+	background-color: #095474;
+	color: #FFFFFF !important;
+}
+
+.padrao-visual table tbody tr td span.coluna_rodape {
+	background-color: #095474;
+	color: #FFFFFF !important;
+}
+
+.rich-dtascroller-table {
+	border-collapse: collapse !important;
+	text-align: center;
+}
+
+.rich-table-footercell {
+	background-color: #095474;
+}
+
+.padrao-visual .pv-linha-formulario .pv-linha-espacamento-vertical {
+	padding: 10px 0 0 0 !important;
+}
+
+.padrao-visual .pv-linha-formulario label.pv-linha-opcao {
+	display: inline !important;
+	font-family: ColaborateLightRegular, Verdana, Arial !important;
+}
+
+.padrao-visual .pv-linha-formulario .pv-alinhamento-horizontal {
+	float: left;
+	width: 350px;
+	margin: 7px 0 0 150px;
+}
+
+.padrao-visual .pv-linha-formulario .pv-alinhamento-horizontal_1 {
+	float: left;
+	width: 136px;
+	padding: 20px 0 0 0;
+	margin: -13px 0 0 25px;
+}
+
+.padrao-visual .pv-linha-formulario-novo {
+	padding-bottom: 12px;
+	zoom: 1;
+	margin: 0 0 -20px 462px;
+}
+
+.padrao-visual .pv-espacamento-esquerda {
+	padding-left: 20px !important;
+	color: red !important;
+}
+
+.padrao-visual .pv-espacamento-esquerda-valor {
+	color: red !important;
+}
+
+.rich-table {
+	border-top: solid 1px #C4C0C9;
+	border-left: solid 1px #C4C0C9;
+	background-color: #FFF;
+	empty-cells: show;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+.padrao-visual table td input.fundo-branco {
+	text-align: right !important;
+	background-color: white !important;
+}
+
+.faixa-de-resultado {
+	width: 6%;
+}
+
+.resultado-comercial {
+	width: 38%;
+}
+
+.numero-corretores {
+	width: 7%;
+}
+
+.premio-emitido {
+	width: 10%;
+}
+
+.cota {
+	width: 12%;
+}
+
+.saldo-cc {
+	width: 15%;
+}
+
+.acoes {
+	
+}
+
+.highlight:HOVER {
+	background-color: white !important;
+}
+
+#cabecalho {
+	background-color: rgb(0, 49, 75);
+	width: 98%;
+	height: 100%;
+	padding: 23px;
+	margin: -8px 0px 0px -11px;
+}
+
+#logo {
+	width: 12%;
+	margin: 0px 0px 0px 10%;
+}
+
+#menu {
+	width: 45%;
+	margin: 0% 0% -1% 21%;
+	padding: 1px;
+	position: relative;
+}
+
+#versao label {
+	color: rgb(140, 184, 206) ! important;
+	width: 5%;
+	float: right;
+}
+
+#centralizada {
+	border: 1px solid rgb(233, 233, 233);
+	border-radius: 20px 20px 20px 20px;
+	top: 20px;
+	padding: 1%;
+	margin: 1% 1% 1% 10%;
+	width: 80%;
+}
+
+#centralizada h3 {
+	margin: -1% 0px -5px 0%;
+}
+
+#centralizada_interna_1 {
+	border: 1px solid rgb(233, 233, 233);
+	border-radius: 20px 20px 20px 20px;
+	width: 95%;
+	margin: 0 0 0 1.5%;
+	padding: 10px;
+}
+
+.padrao-visual div.cabecalho table tbody tr td .tdMenuPrincipal {
+	background-color: rgb(0, 49, 75) !important;
+}
+
+/*
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+	color: #333333 !important;
+	border: none !important;
+	background-color: white !important;
+}
+*/
+
+.dataTables_wrapper .dataTables_paginate {
+	box-sizing: border-box;
+	display: inline-block;
+	min-width: 1.5em;
+	padding: 0.5em 1em;
+	margin-left: 2px;
+	text-align: center;
+	text-decoration: none !important;
+	cursor: pointer;
+	color: #333333 !important;
+	border: none !important;
+	height: 30px;
+}
+
+.dataTables_info {
+	display: block !important;
+	margin: 0 0 4px 0 !important;
+	font-weight: normal !important;
+	font-family: ColaborateMediumRegular, Trebuchet MS !important;
+	color: #00314b !important;
+	font-size: 14px;
+	padding-top: 0px;
+}
+
+
+.previous{
+	background-image: url('../img/pg_voltar.png');
+	background-repeat: no-repeat;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 4px;
+	margin-top: 0px;
+}
+
+.next {
+	background-image: url('../img/pg_avanca.png');
+	background-repeat: no-repeat;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 4px;
+	margin-top: 0px;
+	margin-left: -3px;
+	border-left-color: white !important;
+	border-left-style: solid;
+}
+}
+
+.first {display: none;}
+.last {display: none;}
+
+.dataTables_length {display: none;}
+.dataTables_filter {display: none;}
+
+.dataTables_wrapper {width: 100%;}
+
+.pagginate_button {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.dataTables_paginate > span > a {
+	color: #00aeef !important;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none !important;
+	border-right-style: solid !important;
+	border-right-width: 1px !important;
+	border-right-color: #00aeef !important;
+}
+
+.dataTables_paginate > span > a.hover {
+	color: #00314b !important;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none !important;
+}
+
+.dataTables_wrapper .dataTables_info {
+	clear: both;
+	float: left;
+	padding-top: 0px;
+}

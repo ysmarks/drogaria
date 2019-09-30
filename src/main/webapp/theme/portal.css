@@ -1,0 +1,291 @@
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+/*
+#form_menu{
+	background: url(../images/centro_td.png) repeat-x scroll 0 0 transparent;
+}
+*/
+
+.botao_default {
+	float: left;
+	margin-top: 5px;
+}
+
+.image_botao_esq {
+	float: left;
+	width: 5px;
+	height: 29px;
+	background: url("../images/image_botao_esq.png") no-repeat scroll 0 0 transparent;
+}
+
+.image_botao_cen {
+	float: left;
+	width: auto;
+	height: 29px;
+	background: url("../images/image_botao_cen.png") repeat-x scroll 0 0 transparent;
+	font-family: inherit;
+}
+
+.image_botao_dir {
+	float: left;
+	width: 5px;
+	height: 29px;
+	background: url("../images/image_botao_dir.png") no-repeat scroll 0 0 transparent;
+}
+
+.image_botao_cen input {
+	background: 0 0 transparent !important;
+	height: 29px;
+	margin: auto 10px 0 10px;
+	padding: 0;
+	border: 0;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #FFF;
+}
+.salva input,.volta input,.salvaLong input,.pesquisa input,.lista input,.filtra input,.aprova input,.carrega input
+	{
+	background: 0 0 transparent !important;
+	color: #FFF;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bolder;
+	cursor: pointer;
+	background: inherit;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.salva {
+	background: url("../images/bot_azul.png") no-repeat scroll 0 0
+		transparent;
+	height: 29px;
+	width: 66px;
+	vertical-align: middle !important;
+	padding: 7px 0 0 10px;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	display: block;
+}
+
+.pesquisa {
+	background: url("../images/bot_azul_long.png") no-repeat scroll 0 0
+		transparent;
+	height: 29px;
+	width: 120px;
+	vertical-align: middle !important;
+	padding: 7px 0 0 25px;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	display: block;
+}
+
+.filtra {
+	background: url("../images/bot_azul_extra.png") no-repeat scroll 0 0
+		transparent;
+	height: 29px;
+	width: 204px;
+	vertical-align: middle !important;
+	padding: 7px 0 0 39px;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	display: block;
+}
+
+.aprova {
+	background: url("../images/bot_azul_extra.png") no-repeat scroll 0 0
+		transparent;
+	height: 29px;
+	width: 204px;
+	vertical-align: middle !important;
+	padding: 7px 0 0 39px;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	display: block;
+}
+
+.carrega {
+	background: url("../images/bot_azul_long.png") no-repeat scroll 0 0
+		transparent;
+	height: 29px;
+	width: 120px;
+	vertical-align: middle !important;
+	padding: 7px 0 0 3px;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	display: block;
+}
+
+.text_input {
+	color: #333;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.campo_texto {
+	background-color: #EFEFEF;
+	border: 1px solid #9D9CA2;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 11px;
+}
+
+/*----------------MENU DO PORTAL----------------*/
+
+/*
+#top_menu{
+	background: url(../images/bg_top_ico.png) center 0px no-repeat;
+	height: 50px;
+}
+#top_menu #menu {
+	width: 753px;
+	margin: auto;
+	padding: 0 !important;
+}
+#top_menu #menu ul li.n_sair{
+	padding: 13px 0 0 0 !important;
+	
+}
+#top_menu #menu ul {
+	list-style-type: none;
+	margin: 0 0 0 6px;
+}
+#top_menu #menu ul li {
+	float: left;
+	height: 21px;
+	padding: 12px 10px 9px;
+	
+}
+ icones ajust tag <a
+#top_menu #menu ul li a[rel] {
+	padding: 2px 0 5px 20px;
+	background: url(../images/rel-sprite.png) no-repeat 0 0;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #8b8b8b;
+	height: 21px;
+}
+
+#top_menu #menu ul li a[rel~="home"] {
+	background-position: -7px -2px;
+}
+
+#top_menu #menu ul li a[rel~="personalizar"] {
+	background-position: -7px -100px;
+}
+
+#top_menu #menu ul li a[rel~="Controle"] {
+	background-position: -7px -342px;
+}
+
+#top_menu #menu ul li a[rel~="links"] {
+	background-position: -7px -196px;
+}
+
+#top_menu #menu ul li a[rel~="alert"] {
+	background-position: -7px -147px;
+}
+
+#top_menu #menu ul li a[rel~="Sair"] {
+	background-position: -7px -248px;
+	padding: 3px 0 5px 21px;
+}
+
+#top_menu #menu ul li #list_email .send_alert {
+	background: url("../images/canto_left.png") no-repeat scroll left
+		center transparent;
+	height: 28px;
+	margin: 14px 0 0 10px;
+	padding: 0 0 0 15px;
+}
+
+#top_menu #menu ul li #list_email .send_alert h3
+	{
+	background: url("../images/canto_right.png") no-repeat scroll 193px
+		0px #fff;
+	background-color: #ededed;
+	color: #282C2D;
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: bold;
+	height: 17px;
+	padding: 7px 0 4px 2px;
+	text-align: justify;
+	width: 205px;
+}
+
+#top_menu #menu ul li #list_email .send_alert h3 a
+	{
+	padding-left: 26px;
+}
+
+#top_menu #menu ul li #list_email .send_alert h3 a[rel~="send_email"]
+	{
+	background-position: -4px -295px;
+}
+
+#top_menu #menu ul li #list_email #alert_text {
+	height: 170px;
+	margin: 7px 0 0 7px;
+	width: 230px;
+}
+
+#top_menu #menu ul li #list_email #alert_text .box .Html_1
+	{
+	background-color: #F5F5F5;
+	height: 69px;
+	width: 230px;
+	clear: left;
+}
+.n_emal {
+	padding: 16px 0 0 0 !important;
+	
+}
+.ajust_menu_top {
+	padding: 4px 0 0 0;
+}
+.ajust_menu_top2 {
+    height: 15px;
+    padding: 4px 0 7px;
+}
+*/
